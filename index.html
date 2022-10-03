@@ -1,34 +1,17 @@
 <html>
     <head>
         <title>my_webportfolio</title>
+        <link rel="stylesheet" href="index.css">
         <style>
-            body{
-                margin: 0;
-                padding: 0;
-                background-color: #8EC5FC;
-                background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+            
 
-            }
-            header{
-                height: 100px;
-                width: auto;
-                background-color:rgb(0, 0, 0);
-            }
-            header div{
-                float: left;
-                height: 100px;
-                text-align:center;
-                
-            }
-            h1{
-                color: aqua;
-            }
-            .logo{
-                height: 100px;
-                width: 70%;
-                margin-left: -5px;
-                margin-right: 50px;
-            }
+            
+            /*  CSS Section Skills    */
+            /*  CSS Section Hobbies    */
+            /*  CSS Section Map    */
+        
+        </style>
+        <style>
             .skills{
                 width: 100px;
                 height: 120px;
@@ -41,66 +24,42 @@
                 width: 90%;
                 color: rgb(204, 178, 60);
             } */
-            .section-1{
-                display: flex;
-                height: 500px;
-                width: 100%;
-                /* border: 5px solid black;
-                background-color: black; */
-            }
-            .div_about{
-                
-                margin: 10px;
-                padding: 5px;
-                width: 50%;
-            }
-            #owner{
-                margin: 10px;
-                padding: 5px;
-                border: 2px solid rgb(227, 23, 23, 0.788);
-                border-radius: 500px;
-            }
-            .about_me{
-                font-size: large;
-                color: rgb(15, 30, 232);
-                font-family: 'Times New Roman';
-                font-weight: bolder;
-            }
-            .subject{
-                font-size: large;
-                color: rgba(227, 23, 23, 0.788);
-                font-family: 'Times New Roman', Times, serif;
-                font-weight: 100;
-            }
+            
+            
         </style>
     </head>
     <body>
+        <!-- Header-->
         <header>
-            <div style="width: 30%; "><img src="images/portfolio.png" class="logo" height="100px" width="30%"></div>
-            <div style="width: 50%;  margin-top:35px;"><h1>Hari Dev</h1></div>
-            <div style="width: 20%; ">
-                <span style="margin: 120px -50px 0px 50px;">
-                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" height="50px" width="50px" ></a>  &nbsp;
-                    <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedIn.png" height="50px" width="50px" ></a>  &nbsp;
-                    <a href="https://stackoverflow.com/" target="_blank"><img src="images/stackoverflow.png" height="50px" width="50px" ></a>  &nbsp;
-                    <a href="https://github.com/haridev007" target="_blank"><img src="images/GitHub.png" height="50px" width="50px" ></a>  &nbsp;
+            <div class="logo"> <img src="images/portfolio.png"> </div>
+            <div class="heading" ><h1 id="name"></h1></div>
+            <div class="links">
+                <span>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"  ></a>  &nbsp;
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedIn.png" ></a>  &nbsp;
+                    <a href="https://stackoverflow.com/" target="_blank"><img src="images/stackoverflow.png" ></a>  &nbsp;
+                    <a href="https://github.com/haridev007" target="_blank"><img src="images/GitHub.png" ></a>  &nbsp;
 
                 </span>
-            
             </div>
         </header>
-        
+        <!-- Section About me-->
         <section class="section-1">
             <div class="div_about">
                 <img src="images/owner.jpg" id="owner" >
             </div>
             <div class="div_about">
-                <h2 class="about_me">About Me</h2>
+                <h2 class="about_me"><img src="https://fontmeme.com/temporary/76432ef4c27042c99950f3db400304f8.png" height="30%" width="70%"></h2>
                 <span class="subject">
                     <b>I am able to handle multiple tasks on a daily basis. I use a creative approach to problem solve. I am a dependable person who is great at time management. I am always energetic and eager to learn new skills. I have experience working as part of a team and individually.</b>
                 </span>
             </div>
         </section>
+        <!-- Section Skills-->
+        <!-- Section Hobbies-->
+        <!-- Section Map-->
+        <!-- Footer-->
+        <br> <br>
 
         <hr>
         <center>
@@ -132,7 +91,7 @@
         </div>
         
         <center>
-            <h3>Hobbies</h3>
+            <img src="https://fontmeme.com/temporary/d58accf227f12e2932a8faefc0814859.png">
             <p>
                 <span style="margin: 20px;"> <img src="images/musicbrain.png" class="skills" > </span>
                 <span style="margin: 20px;"> <img src="images/basketball.png" class="skills" > </span>
@@ -147,14 +106,6 @@
         <footer>
         <p><center><b>&copy; My_Portfolio 2022 | <a href="https://github.com/Haridev007" >Haridev007 </b> </a> &reg;</center></p>
         </footer>
-        <!-- Name
-        YourImage
-        About U
-        Skills
-        Hobbies
-        Map
-        Social Link
-        Copyright -->
         
     </body>
 
