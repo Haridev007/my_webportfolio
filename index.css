@@ -73,7 +73,6 @@ header div{
     display: flex;
     height: 500px;
     width: 100%;
-    background-color: black;
     background-color: #5e6264;
     background-image: linear-gradient(238deg, #5e6264 6%, #95cae2 25%, #525254 65%, #643709 100%);
     /* ------ used this link for Section 1 CSS - https://cssgradient.io/gradient-backgrounds/ */
