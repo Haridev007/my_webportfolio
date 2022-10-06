@@ -4,7 +4,7 @@ body{
     background-color: #7c3bb8;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
-/*  CSS Header    */
+/*  ------------------CSS Header----------------    */
 header{
     width: 100%;
     height: 70px;
@@ -68,7 +68,7 @@ header div{
     width: 50px;
     margin-top: 10px;
 }
-           /*  CSS Section About me    */
+/*  ------------------------ CSS Section About me ----------------      */
 .section-1{
     display: flex;
     height: 500px;
@@ -101,7 +101,7 @@ header div{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
 }
-/*  CSS Section Skills    */
+/*            ----------------------- CSS Section Skills -----------------------      */
 .section-2{
     width: 100%;
     height: 250px;
@@ -116,14 +116,14 @@ header div{
     padding: 10px;
     /* border: 1px solid black; */
 }
-/*  CSS Section Hobbies    */
+/*           ---------------- CSS Section Hobbies ---------------------    */
 .section-3{
     width: 100%;
     height: 250px;
     background-color: #5e6264;
     background-image: linear-gradient(238deg, #5e6264 5%, #95cae2 20%, #525254 60%, #643709 90%);
 }
-/*  CSS Section Map    */
+/*               ----------------CSS Section Map ------------------          */
 .section-4{
     width: 100%;
     height: 450px;
@@ -131,7 +131,7 @@ header div{
     background-color: #5e6264;
     background-image: linear-gradient(238deg, #5e6264 5%, #95cae2 20%, #525254 60%, #643709 90%);
 }
-/*  -------------------CSS Footer --------------------   */
+/*           -------------------CSS Footer --------------------           */
 footer{
     width: 100%;
     height: 70px;
@@ -148,23 +148,23 @@ footer{
     text-indent: 50px;
     text-shadow: 5px 5px 10px #00FF00;
 }
-/* -------------------CSS Footer------------------ */
+/* CSS Footer anchor tag */
 footer a{
     color: #e7f246;
     text-decoration: none;
     
 }
-/* ------------------visited link--------------------- */
+/* ---visited link--- */
 a:visited {
 color: rgb(200, 226, 32);
 }
 
-/* ------------------------mouse over link------------------ */
+/* ---mouse over link--- */
 a:hover {
 color: rgb(140, 138, 139);
 }
 
-/* --------------------------selected link----------------------- */
+/* ---selected link--- */
 a:active {
 color: blue;
 }
