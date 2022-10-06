@@ -31,20 +31,6 @@ header div{
     /* margin-top: 30px;
     background-color: rgb(56, 17, 231); */
 }
-/* .heading h1{
-    font: 100;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2em;
-    font-style: italic;
-    font-weight: bolder;
-}
-#name{
-    color: #4add2c;
-    letter-spacing: 2px;
-    word-spacing: 4px;
-    text-indent: 50px;
-    text-shadow: ;
-} */
 .links{
     height: 70px;
     width: 20%;                
@@ -57,11 +43,6 @@ header div{
     margin: 100px;
     /* background-color: red; */
 }
-/* .links span a:hover{
-    background-color: aliceblue;
-    color: aqua;
-    height: -5px;
-} */
 .links span a img{
     height: 50px;
     width: 50px;
@@ -85,13 +66,14 @@ header div{
     margin: -24px;
     margin-left: 10%;
     padding: 5px;
-    border: 5px solid #95cae2;
+    border: 2px solid #95cae2;
     border-radius: 500px;
 }
 #intro{
     text-align: center;
     /* border: 2px solid #95cae2; */
-    box-shadow: -2px -2px 20px #95cae2;
+    border-radius: 50px;
+    box-shadow: -2px -2px 20px whitesmoke;
 }
 /*  ----- used this link for Hari Dev - https://fontmeme.com/calligraphy-fonts/ 
     .about_me{
